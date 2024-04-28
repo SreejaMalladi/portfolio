@@ -36,7 +36,7 @@
 
 Published a research paper at the SPIE Medical Imaging 2024 conference that compared deep learning-based segmentation models for accurately delineating head and neck tumors and lymph nodes in medical images. The study evaluated the performance of Squeeze-and-Excitation U-Net and SegResNet architectures, with the SegResNet model achieving higher accuracy and computational efficiency. This work demonstrates the potential of advanced AI-powered segmentation tools to improve cancer treatment planning workflows.
 
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
+![EEG Band Discovery](/assets/images/image.png)
 
 ## Talks & Lectures
 - Causality: The new science of an old question - GSP Seminar, Fall 2021
