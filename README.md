@@ -36,15 +36,7 @@
 
 Published a research paper at the SPIE Medical Imaging 2024 conference that compared deep learning-based segmentation models for accurately delineating head and neck tumors and lymph nodes in medical images. The study evaluated the performance of Squeeze-and-Excitation U-Net and SegResNet architectures, with the SegResNet model achieving higher accuracy and computational efficiency. This work demonstrates the potential of advanced AI-powered segmentation tools to improve cancer treatment planning workflows.
 
-![EEG Band Discovery](/assets/images/image.png)
-
-## Talks & Lectures
-- Causality: The new science of an old question - GSP Seminar, Fall 2021
-- Guest Lecture: Dimensionality Reduction - Big Data and Machine Learning for Scientific Discovery (PHYS 5336), Spring 2021
-- Guest Lecture: Fourier and Wavelet Transforms - Scientific Computing (PHYS 5315), Fall 2020
-- A Brief Introduction to Optimization - GSP Seminar, Fall 2019
-- Weeks of Welcome Poster Competition - UTD, Fall 2019
-- A Brief Introduction to Networks - GSP Seminar, Spring 2019
+![Sample Image](/assets/images/image.png)
 
 ## Publications
 1. Sreeja Malladi, Sanket Purohit, Advait Brahme, Julia A. Scott, "Evaluation of multimodal image segmentation for radiotherapy planning," Proc. SPIE 12931, Medical Imaging 2024: Imaging Informatics for Healthcare, Research, and Applications, 129311G (2 April 2024); https://doi.org/10.1117/12.3023419
