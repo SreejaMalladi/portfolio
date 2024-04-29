@@ -32,7 +32,7 @@
 
 ## Projects
 ### Evaluation of multimodal image segmentation for radiotherapy planning
-[Publication]([https://doi.org/10.1117/12.3023419])
+[Publication](https://doi.org/10.1117/12.3023419)
 
 Published a research paper at the SPIE Medical Imaging 2024 conference that compared deep learning-based segmentation models for accurately delineating head and neck tumors and lymph nodes in medical images. The study evaluated the performance of Squeeze-and-Excitation U-Net and SegResNet architectures, with the SegResNet model achieving higher accuracy and computational efficiency. This work demonstrates the potential of advanced AI-powered segmentation tools to improve cancer treatment planning workflows.
 
