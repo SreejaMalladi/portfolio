@@ -6,7 +6,7 @@
 #### Cloud & Others: AWS S3, SageMaker, DynamoDB, Docker, Git, Data Structures, Algorithms, Image Processing, Computer Vision
 
 ## Education
-- M.S., Computer Engineering	| Santa Clara University (_March 2024_)	 			        		
+- M.S., Computer Science and Engineering	| Santa Clara University (_March 2024_)	 			        		
 - B.Tech., Computer Science and Engineering | Vignan's Foundation for Science, Technology & Research (_April 2019_)
 
 ## Work Experience
