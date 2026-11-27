@@ -1,1 +1,281 @@
-<!DOCTYPE html><html><body><h1>Portfolio</h1></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sreeja Malladi — Applied AI Engineer</title>
+  <meta name="description" content="Applied AI Engineer with 4+ years building agentic and LLM systems end to end." />
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #111827;
+      --muted: #4b5563;
+      --border: #e5e7eb;
+      --accent: #2563eb;
+      --tag-bg: #f3f4f6;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f1117;
+        --text: #f3f4f6;
+        --muted: #9ca3af;
+        --border: #1f2937;
+        --accent: #60a5fa;
+        --tag-bg: #1f2937;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 2.5rem 1.25rem;
+    }
+
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      font-size: 2.25rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .subtitle {
+      font-size: 1.15rem;
+      color: var(--muted);
+      margin-top: 0.25rem;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 0.85rem;
+      font-size: 0.95rem;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      margin-bottom: 2.5rem;
+    }
+
+    h2 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.35rem;
+    }
+
+    .summary {
+      font-size: 1.05rem;
+    }
+
+    .item {
+      margin-bottom: 1.75rem;
+    }
+
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .role {
+      font-weight: 600;
+      font-size: 1.05rem;
+    }
+
+    .company {
+      color: var(--muted);
+      font-weight: 500;
+    }
+
+    .date {
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    ul {
+      margin-top: 0.5rem;
+      padding-left: 1.2rem;
+    }
+
+    li {
+      margin-bottom: 0.35rem;
+      color: var(--text);
+    }
+
+    .skills-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .tag {
+      background: var(--tag-bg);
+      padding: 0.3rem 0.65rem;
+      border-radius: 6px;
+      font-size: 0.88rem;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding-top: 1.5rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Sreeja Malladi</h1>
+      <p class="subtitle">Applied AI Engineer · Mountain View, CA</p>
+      <div class="links">
+        <a href="mailto:malladi.sreeja@gmail.com">malladi.sreeja@gmail.com</a>
+        <span>·</span>
+        <a href="https://linkedin.com/in/Sreeja-Malladi" target="_blank" rel="noopener">LinkedIn</a>
+        <span>·</span>
+        <a href="https://github.com/SreejaMalladi" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>About</h2>
+      <p class="summary">
+        Applied AI Engineer with 4+ years building agentic and LLM systems end to end, from model training to low-latency GPU inference (PyTorch, CUDA, KVcache). Experienced in designing multi-agent orchestration on GCP with observability, scaling generative and TTS workloads while reducing latency and infrastructure cost.
+      </p>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+
+      <div class="item">
+        <div class="item-header">
+          <div><span class="role">AI/ML Researcher</span> · <span class="company">TRIPP, Inc.</span></div>
+          <span class="date">Jan 2024 – Present · Mountain View, CA</span>
+        </div>
+        <ul>
+          <li>Built scalable Python microservices for real-time conversational AI supporting sub-300ms production voice interactions.</li>
+          <li>Developed multi-agent orchestration workflows with dynamic routing and tool selection, cutting content generation time by 75% and increasing request capacity 9x.</li>
+          <li>Designed event-driven async pipelines for STT, LLM, and TTS stages, improving tail latency by 18%, and built interruption-aware voice experiences (VAD) with ~120ms interruption response times.</li>
+          <li>Fine-tuned and deployed transformer-based speech models for expressive TTS, reducing annual third-party TTS costs by $250K.</li>
+          <li>Implemented RAG retrieval systems, Redis PubSub provider failover logic, and Langfuse observability across production LLM/tool pipelines.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <div><span class="role">Graduate Research Assistant (Varian &amp; eVision)</span> · <span class="company">Santa Clara University</span></div>
+          <span class="date">Sep 2022 – Dec 2023 · Santa Clara, CA</span>
+        </div>
+        <ul>
+          <li>Trained a multi-channel 3D CNN (PyTorch, MONAI) for automated segmentation of Gross Tumor Volumes and lymph nodes in head and neck CT/PET scans, achieving a 0.681 Dice score.</li>
+          <li>Built a longitudinal LSTM influenza forecasting pipeline (Keras, CDC ILINet, Google Trends) and deployed a containerized interactive web app for public health analytics.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <div><span class="role">Software Engineer</span> · <span class="company">Tata Consultancy Services</span></div>
+          <span class="date">Aug 2019 – Aug 2022</span>
+        </div>
+        <ul>
+          <li>Built scalable ETL pipelines and real-time streaming architectures (Kafka, PySpark) unifying government data across 20+ sources.</li>
+          <li>Developed interactive financial dashboards (Pandas, Matplotlib) for 17 state governments and supported multi-landscape SAP and Oracle/HANA systems.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <div><span class="role">Software Developer Intern</span> · <span class="company">NECX Private Limited</span></div>
+          <span class="date">Dec 2018 – Apr 2019</span>
+        </div>
+        <ul>
+          <li>Built a Python facial recognition system (OpenCV, Haar Cascade, LBPH) achieving 83% test accuracy with a Tkinter and SQLite3 management interface.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Publications</h2>
+      <div class="item">
+        <div class="item-header">
+          <div class="role">Evaluation of Multimodal Image Segmentation for Radiotherapy Planning</div>
+          <span class="date">SPIE Medical Imaging 2024</span>
+        </div>
+        <p style="margin-top: 0.35rem; color: var(--muted);">
+          Published research on deep learning-based segmentation of head and neck tumors for radiotherapy planning, demonstrating SegResNet's accuracy and efficiency over Squeeze-and-Excitation U-Net models.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <div class="item">
+        <div class="item-header">
+          <div><span class="role">M.S. in Computer Science and Engineering</span> · <span class="company">Santa Clara University</span></div>
+          <span class="date">Sep 2022 – Mar 2024 · GPA: 3.733/4.0</span>
+        </div>
+      </div>
+      <div class="item">
+        <div class="item-header">
+          <div><span class="role">B.S. in Computer Science</span> · <span class="company">Vignan's Foundation for Science, Technology &amp; Research</span></div>
+          <span class="date">Jul 2015 – Apr 2019 · GPA: 9.39/10.0</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <span class="tag">Agentic Architectures</span>
+        <span class="tag">LLMs &amp; RAG</span>
+        <span class="tag">TTS Fine-tuning &amp; Inference</span>
+        <span class="tag">PyTorch / TensorFlow / MONAI</span>
+        <span class="tag">CUDA &amp; KVcache</span>
+        <span class="tag">Python &amp; FastAPI</span>
+        <span class="tag">GCP &amp; AWS</span>
+        <span class="tag">Docker</span>
+        <span class="tag">Langfuse</span>
+        <span class="tag">Redis / Kafka / PySpark</span>
+        <span class="tag">PostgreSQL / MySQL</span>
+      </div>
+    </section>
+
+    <footer>
+      © 2026 Sreeja Malladi
+    </footer>
+  </main>
+</body>
+</html>
